@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>الهيئة السعودية للمهندسين</title>
+  <link href="Moataz.css" rel="stylesheet">
+  
+</head>
+<body>
+
+  <header class="topbar">
+    <!-- النقاط (يسار الصفحة) -->
+    <div class="dots" title="controls">
+      <div class="dot gold"></div>
+      <div class="dot"></div>
+      <div class="language-switcher" onclick="toggleLanguage()">
+</div>
+
+      </div>
+
+    <!-- لوغو مضمّن (Data URI) على اليمين — سيظهر دائماً -->
+    </style>
+</head>
+<a href="https://www.saudieng.sa/Arabic/Pages/default.aspx" target="_blank">
+  <img title="الصفحة الرئيسية" width="100" src="logo.jpg" alt="شعار الموقع" class="logo">
+</a>
+
+      
+  </header>
+
+ <div class="breadcrumb">
+  <strong>الصفحة الرئيسية / نظام الاعتماد المهني</strong>
+</div>
+
+<main class="wrapper">
+  <article class="card">
+    <div class="member-badge">
+  <div class="avatar-core">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 
+               2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 
+               5v1h20v-1c0-3.3-6.7-5-10-5z"/>
+    </svg>
+  </div>
+</div>
+<script>
+let currentLang = 'ar';
+function toggleLanguage() {
+  if(currentLang === 'ar') {
+    currentLang = 'en';
+    alert('Language switched to English');
+    // هنا ممكن تغير محتوى الموقع للإنجليزية
+  } else {
+    currentLang = 'ar';
+    alert('تم تغيير اللغة للعربية');
+    // هنا ممكن تغير محتوى الموقع للعربية
+  }
+  
+}
+</script>
+
+
+      <!-- النص الأساسي في الوسط بالأسود -->
+      <p class="intro">
+        هذه الوثيقة صادرة من الهيئة السعودية للمهندسين وقد منحت<br>
+        للعضو <strong>معتز مصطفى محمود حسين</strong><br>
+        رقم العضوية 1178216
+      </p>
+
+      <div class="gold-line"></div>
+
+      <div class="card-body">
+        <!-- تفاصيل على اليمين -->
+        <div class="info-col">
+          <div class="fields">
+            <div class="label">التخصص</div><div class="value">هندسة ميكانيكية</div>
+            <div class="label">صالحة لغاية</div><div class="value">5/10/2027</div>
+            <div class="label">الجنسية</div><div class="value">مصري</div>
+           <div class="label">تاريخ الالتحاق</div><div class="value">5/10/2025</div>
+            
+            
+          </div>
+        </div>
+
+        <!-- الصورة على اليسار: المستخدم مضمن هنا -->
+        <div class="photo-col">
+          <img width="200"src="2.png" alt="الصورة الشخصية" class="photo">
+        </div>
+      </div>
+
+      <div class="footer-bar">جميع الحقوق محفوظة للهيئة السعودية للمهندسين ©</div>
+    </article>
+  </main>
+</body>
+</html>
